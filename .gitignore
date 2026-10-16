@@ -1,0 +1,49 @@
+# ---- Сборочные артефакты ----
+build/
+bin/
+out/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.o
+*.map
+*.idb
+*.tlog
+*.log
+
+# ---- Visual Studio / Rider / VS Code ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.aps
+*.ncb
+*.vcxproj.user
+
+# ---- Прочее ----
+*.tmp
+*.bak
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Секреты ----
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+secrets.json
+credentials.json
